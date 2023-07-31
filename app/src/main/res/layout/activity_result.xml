@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        android:fontFamily="@font/open_sans"
         android:text="Result"
         android:textColor="@android:color/white"
         android:textSize="25sp"
@@ -32,16 +33,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans"
         android:text="Hey, Congratulations!"
         android:textColor="@android:color/white"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
+        android:fontFamily="@font/open_sans"
         android:textColor="@android:color/white"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -62,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@android:color/white"
+        android:fontFamily="@font/open_sans"
         android:text="FINISH"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"

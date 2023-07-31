@@ -14,19 +14,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
+        android:fontFamily="@font/open_sans"
         android:gravity="center"
         android:text="Trivia !"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:textStyle="bold"
-         />
+        android:textStyle="bold" />
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
-        android:background="@color/white"
+        style="@style/Base.Theme.Trivia"
         android:elevation="5dp"
         app:cardCornerRadius="8dp">
 
@@ -40,6 +40,7 @@
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 android:gravity="center"
                 android:text="Welcome"
                 android:textColor="#363A43"
@@ -52,6 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
+                android:fontFamily="@font/open_sans"
                 android:gravity="center"
                 android:text="Please enter your name."
                 android:textColor="#7A8089"
@@ -67,8 +69,9 @@
                     android:id="@+id/et_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:imeOptions="actionGo"
+                    android:fontFamily="@font/open_sans"
                     android:hint="Name"
+                    android:imeOptions="actionGo"
                     android:inputType="textCapWords"
                     android:textColor="#363A43"
                     android:textColorHint="#7A8089" />
@@ -80,6 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@color/colorPrimary"
+                android:fontFamily="@font/open_sans"
                 android:text="Start"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />

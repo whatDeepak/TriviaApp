@@ -3,8 +3,8 @@
     <style name="Base.Theme.Trivia" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="cardBackgroundColor">@color/white</item>
 
-        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="Theme.Trivia" parent="Base.Theme.Trivia" />
